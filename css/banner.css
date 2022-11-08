@@ -1,11 +1,11 @@
 
 
 .banner {
-    height: 500px;
+    height: 300px;
     background-image: url("../img/banner-image.png");
     background-size: 100vw;
     background-repeat: no-repeat;
-    padding-top: 80px;    
+    padding-top: 50px;
 }
 
 .banner__promociones {
@@ -38,7 +38,7 @@
     .banner {
         width: 100%;
         height: 230px;
-          
+
     }
     .banner__promociones {
         width: 100vw;
@@ -53,6 +53,6 @@
         width: 118px;
         height: 35px;
         font-size: .9rem;
-        
+
     }
 }

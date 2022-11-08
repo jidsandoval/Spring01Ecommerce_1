@@ -1,21 +1,23 @@
 .diversos {
-    padding: 10px 10px;
+  width: 100%;
+  padding-left: 100PX;
+  padding-top: 20px;
  }
- 
+
  .diversos__img {
-     width: 180px;
-     height: 172px;
+   width: 176px;
+   height: 174px;
  }
  .diversos__titulo {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
-     padding-bottom: 10px;
-     font-size: 32px;
-     font-size: bold;
- 
+   width: 95%;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   align-items:baseline;
+   font-size: 32px;
+   font-size: bold;
  }
+
  .diversos__ver, .diverso__link {
      background:none;
      color: #2A7AE4;
@@ -23,20 +25,23 @@
      font-size: 16px;
      border: none;
  }
- 
+
  .diversos__card {
-    height: 252px;
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: space-between;
- 
+   width: 90%;
+   display: flex;
+   flex-direction: row;
+
+ }
+ .diversos__contenedor {
+    margin:14PX;
+
  }
  .diverso__titulo {
      font-size: 14px;
      font-weight: 18px;
- 
+
  }
- 
+
  .diverso__precio {
      font-size: 16px;
      font-weight: bold;
@@ -47,11 +52,11 @@
      transition: 0.7s;
  }
 
- @media screen and (max-width:768px) { 
+ @media screen and (max-width:768px) {
     .diversos {
         padding: 10px 0;
         font-size: 0.5rem;
-        
+
     }
     .diversos__titulo {
         width: 95%;
@@ -65,7 +70,7 @@
 
     .diversos__contenedor {
         padding: 5px 5px;
-       
+
     }
 
     .ocultar {
@@ -78,5 +83,5 @@
         font-size: 0.6rem;
         border: none;
     }
-    
+
 }

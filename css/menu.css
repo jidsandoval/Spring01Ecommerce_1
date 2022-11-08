@@ -1,8 +1,8 @@
 .cabecera {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 200PX;
+    padding-left: 100PX;
 }
 
 .menu {
@@ -43,7 +43,7 @@
     border: none;
     border-radius: 100%;
     cursor: pointer;
-} 
+}
 
 
 .menu__login {
@@ -51,10 +51,10 @@
     height: 51px;
     color: #2A7AE4;
     background-color:white;
-    border-color: #2A7AE4; 
+    border-color: #2A7AE4;
     cursor: pointer;
     font-weight: bold;
-   
+
 }
 .menu__login:hover {
     background-color: #2A7AE4;
@@ -62,7 +62,7 @@
 }
 
 @media screen and (max-width:768px) {
-     
+
     .menu__logo {
         width: 100px;
         height: 28px;
@@ -72,9 +72,9 @@
         width:208px;
         height:28px;
         font-size: 0.7rem;
-       
+
     }
-    
+
     .menu__login {
         width: 166px;
         height: 40px;
