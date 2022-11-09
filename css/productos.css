@@ -50,7 +50,7 @@
     transition: 0.7s;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 415px) {
   .productos__img {
     width: 158px;
     height: 174px;

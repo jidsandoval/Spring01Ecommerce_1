@@ -60,7 +60,7 @@
     color: black;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 414px) {
     .menu__logo {
       width: 120px;
       height:28px;
@@ -75,10 +75,7 @@
       flex-direction: row;
       justify-content:space-between;
     }
-  .menu__login {
-    flex:1;
-  }
-
+  
 }
 /*@media (min-width: 900px) and (max-width: 1199px) {
   .menu__busqueda input[type=text]{
