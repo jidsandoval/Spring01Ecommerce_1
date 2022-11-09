@@ -34,7 +34,7 @@
     color: black;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 720px) {
   .banner{
     width: 360px;
     height: 100px;
