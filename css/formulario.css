@@ -49,7 +49,7 @@ a {
     background-color:lightblue;
  }
 
- @media screen and (max-width: 415px) {
+ @media screen and (-width: 415px) {
   .logoForm {
     width: 150px;
     height: 40px;
@@ -83,7 +83,7 @@ a {
   }
 
  }
-/*
+
  @media screen and (max-width:768px) {
     .logoForm {
         width: 150px;
@@ -118,4 +118,3 @@ a {
 
     }
 }
-*/
