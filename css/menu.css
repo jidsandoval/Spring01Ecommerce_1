@@ -2,7 +2,6 @@
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 100PX;
 }
 
 .menu {
@@ -30,7 +29,7 @@
 }
 
 .menu__busqueda input[type=text]{
-    width:180px;
+    width:350px;
     height:40px;
     border-radius:25px;
     background-color: #F5F5F5;
@@ -61,7 +60,27 @@
     color: black;
 }
 
-@media (min-width: 900px) and (max-width: 1199px) {
+@media screen and (max-width: 376px) {
+    .menu__logo {
+      width: 120px;
+      height:28px;
+      padding-left: 30px;
+    }
+    .menu__login {
+      width: 133px;
+      height: 40px;
+    }
+    .menu__contenedor {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+    }
+  .menu__login {
+    flex:1;
+  }
+
+}
+/*@media (min-width: 900px) and (max-width: 1199px) {
   .menu__busqueda input[type=text]{
       width:300px;
   }
