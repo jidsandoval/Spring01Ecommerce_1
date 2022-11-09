@@ -53,7 +53,7 @@
  }
 
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 769px) {
     .diversos__img {
       width: 158px;
       height: 174px;

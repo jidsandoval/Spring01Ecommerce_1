@@ -52,7 +52,7 @@
  }
 
 
- @media screen and (max-width: 720px) {
+ @media screen and (max-width: 769px) {
    .consolas__img {
      width: 158px;
      height: 174px;
