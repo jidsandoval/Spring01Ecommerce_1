@@ -25,10 +25,11 @@
 }
 
 .productos__card {
-    width: 100%;
+    width:100%;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    
 }
 
 .productos__contenedor {
@@ -56,12 +57,11 @@
     height: 174px;
   }
   .productos__card {
-    width: 100%;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: center;
-
+    justify-content:space-between;
+    padding: 0.5rem;
   }
   .productos__titulo {
     font-size: 0.7rem;
