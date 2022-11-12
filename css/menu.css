@@ -29,7 +29,6 @@
 }
 
 .menu__busqueda input[type=text]{
-  
     height:40px;
     border-radius:25px;
     background-color: #F5F5F5;
@@ -80,6 +79,11 @@
     }
   
 }
+@media (min-width: 415px) and (max-width: 690px) {
+    .menu__texto {
+        width: 50%;
+    }
+}
 @media (min-width: 415px) and (max-width: 768px) {
 .menu {
     width: 100%;
@@ -92,6 +96,6 @@
 
 }
 .menu__texto {
-    width:70%;
+    width:calc(70%-10px);
 }
 }
