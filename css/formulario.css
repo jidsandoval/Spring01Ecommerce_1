@@ -41,6 +41,9 @@
   text-align: center;
   background-color: #EAF2FD;
 }
+.enlacesform, .logo__contac {
+  width: 100%;
+}
 
 .enlacesform a {
   display: flex;
