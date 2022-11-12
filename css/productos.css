@@ -4,8 +4,8 @@
 }
 
 .productos__img {
-    width: 176px;
-    height: 174px;
+    width: 150px;
+    height: 150px;
 }
 .productos__titulo {
     width: 95%;
@@ -33,7 +33,7 @@
 }
 
 .productos__contenedor {
-  padding: 5px;
+  margin:5PX;
 }
 
 .productos__precio {
@@ -67,8 +67,11 @@
 
 }
 @media (min-width: 415px) and (max-width: 1024px) {
+  
+  
   .productos__card {
     width: 90%;
+    display: flex;
   }
  
 
