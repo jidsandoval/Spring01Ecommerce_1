@@ -49,8 +49,8 @@
 
 @media screen and (max-width: 415px) {
   .productos__img {
-    width: 158px;
-    height: 174px;
+    width: 100%;
+    height: 50%;
   }
   .productos__card {
     display: flex;
