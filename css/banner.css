@@ -54,7 +54,7 @@
     font-size: 0.7rem
   }
 }
-@media (min-width: 415px) and (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 1024px) {
   .banner {
     width: 100%;
   }

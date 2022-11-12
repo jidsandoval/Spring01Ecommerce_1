@@ -80,37 +80,12 @@
 
   }
 
-/*
- @media screen and (max-width:768px) {
-    .diversos {
-        padding: 10px 0;
-        font-size: 0.5rem;
 
+  @media (min-width: 415px) and (max-width: 1024px) {
+    .dicersos__card {
+      width: 90%;
     }
-    .diversos__titulo {
-        width: 95%;
-        font-size: 0.7rem;
-    }
-
-    .diversos__img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .diversos__contenedor {
-        padding: 5px 5px;
-
-    }
-
-    .ocultar {
-        display: none;
-    }
-    .diversos__link {
-        background:none;
-        color: #2A7AE4;
-        font-weight: bold;
-        font-size: 0.6rem;
-        border: none;
-    }
-
-}*/
+   
+  
+  }
+  
