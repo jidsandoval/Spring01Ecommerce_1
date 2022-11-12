@@ -4,8 +4,9 @@
 }
 
 .productos__img {
-    width: 150px;
-    height: 150px;
+    align-items: center;
+    width: 100%;
+    height: 50%;
 }
 .productos__titulo {
     width: 95%;
