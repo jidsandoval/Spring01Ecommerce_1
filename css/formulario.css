@@ -1,3 +1,38 @@
+.contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #EAF2FD;
+  padding-bottom: 20px;
+
+}
+.logo__contac {
+  width: 33%;
+}
+.enlacesform {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+
+}
+.enlacesform a{
+  text-decoration: none;
+  color: black;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+.formulario__btn {
+  background-color: #2A7AE4;
+  font-size: 0.7rem;
+  color: #EAF2FD;
+  font-weight: bold;
+  width: 40%;
+  height: 20%;
+}
+
 @media screen and (max-width: 415px) {
 .contacto {
   width: 100%;

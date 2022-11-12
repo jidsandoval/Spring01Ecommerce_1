@@ -29,6 +29,7 @@
 }
 
 .menu__busqueda input[type=text]{
+    width:80%;
     height:40px;
     border-radius:25px;
     background-color: #F5F5F5;
@@ -37,7 +38,6 @@
 .menu__busqueda button{
     width: 20px;
     height: 20px;
-    margin-right: 24px;
     border: none;
     border-radius: 100%;
     cursor: pointer;
