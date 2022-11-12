@@ -52,6 +52,26 @@
     font-size: 0.7rem
   }
 }
+@media (min-width: 415px) and (max-width: 768px) {
+  .banner__titulo {
+    font-size: 2.6rem;
+  }
+    .banner__productos {
+    font-size: 1.1rem;
+  }
+
+  .banner__promociones {
+   left: 2%;
+    top: 40%;
+  }
+  .banner__btn {
+    width: 100px;
+    height: 50px;
+    font-size: 0.7rem
+  }
+  }
+  
+
 /*
 @media screen and (max-width:768px) {
     .banner {
