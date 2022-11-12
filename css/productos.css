@@ -35,11 +35,6 @@
 .productos__contenedor {
   padding: 5px;
 }
-.producto__titulo {
-    font-size: 14px;
-    font-weight: 18px;
-
-}
 
 .productos__precio {
     font-size: 16px;
