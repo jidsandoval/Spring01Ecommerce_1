@@ -8,7 +8,7 @@
     height: 174px;
 }
 .productos__titulo {
-    width: 97%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
