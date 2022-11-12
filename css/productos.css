@@ -66,12 +66,9 @@
   }
 
 }
-@media (min-width: 415px) and (max-width: 812px) {
+@media (min-width: 415px) and (max-width: 1024px) {
   .consolas__card {
     width: 90%;
-  }
-  .ocultar {
-    display: none;
   }
  
 
